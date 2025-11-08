@@ -1,0 +1,21 @@
+steam-spray-trainer/
+├── steamlib/
+│   ├── __init__.py
+│   ├── platen_superheater.py    ← ماژول پلاتن (5 بخش، 50 متر)
+│   ├── final_superheater.py     ← ماژول فاینال (6 بخش، 72 متر)
+│   └── config/
+│       ├── platen_superheater.yaml
+│       └── final_superheater.yaml
+├── docs/
+│   ├── platen_specs.md          ← مشخصات پلاتن (Markdown)
+│   └── final_specs.md           ← مشخصات فاینال (Markdown)
+├── examples/
+│   └── demo_simulation.py      ← مثال استفاده از ماژول‌ها
+├── tests/
+│   ├── test_platen.py
+│   └── test_final.py            ← تست‌های واحد (pytest)
+├── .github/workflows/
+│   └── test.yml                 ← GitHub Actions برای تست خودکار
+├── README.md                    ← مستند اصلی
+├── requirements.txt
+└── LICENSE                      ← MIT License

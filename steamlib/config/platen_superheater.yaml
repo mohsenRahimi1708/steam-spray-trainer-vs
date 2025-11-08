@@ -1,0 +1,31 @@
+platen_superheater:
+  structure:
+    tubes_per_tube_assembly: 4
+    tube_assemblies_per_coil: 43
+    total_tube_count: 172
+    tube_length_m: 50.0
+  elevation:
+    inlet_header_elevation_m: 34.774
+    outlet_header_elevation_m: 31.880
+    height_difference_m: 2.894
+  sections:
+    - name: inlet_casing
+      color: red
+      length_m: 2.5
+      material: "12Cr1MoV"
+    - name: upper_horizontal
+      color: green
+      length_m: 12.0
+      material: "12Cr2MoWVTiB"
+    - name: lower_vertical
+      color: orange
+      length_m: 20.0
+      material: "12Cr2MoWVTiB"
+    - name: radiant_section
+      color: purple
+      length_m: 15.0
+      material: "SA-213T91"
+    - name: outlet_casing
+      color: yellow
+      length_m: 0.5
+      material: "12Cr1MoV"

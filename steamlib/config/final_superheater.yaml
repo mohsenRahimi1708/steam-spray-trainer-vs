@@ -1,0 +1,35 @@
+final_superheater:
+  structure:
+    tubes_per_tube_assembly: 4
+    tube_assemblies_per_coil: 43
+    total_tube_count: 172
+    tube_length_m: 72.0
+  elevation:
+    inlet_header_elevation_m: 40.0
+    outlet_header_elevation_m: 42.0
+    height_difference_m: 2.0
+  sections:
+    - name: casing_1
+      color: yellow
+      length_m: 1.0
+      material: "12Cr1MoV"
+    - name: casing_2
+      color: orange
+      length_m: 2.0
+      material: "12Cr2MoWVTiB"
+    - name: radiant
+      color: green
+      length_m: 18.0
+      material: "SA-213T91"
+    - name: upper
+      color: orange
+      length_m: 20.0
+      material: "12Cr2MoWVTiB"
+    - name: lower
+      color: blue
+      length_m: 30.0
+      material: "12Cr2MoWVTiB"
+    - name: casing_3
+      color: purple
+      length_m: 1.0
+      material: "12Cr1MoV"
